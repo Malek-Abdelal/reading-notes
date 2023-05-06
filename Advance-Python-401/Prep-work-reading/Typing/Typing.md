@@ -1,0 +1,3 @@
+# Typing
+
+![Typing](./Typing.png)
