@@ -30,4 +30,4 @@ So, By following these best practices, we can effectively use recursion to solve
 
 ## Things I want to know more about
 
-So excited to learn more about OOP and go deeply in it.
+So excited to learn more about OOP and going deeply in it.
