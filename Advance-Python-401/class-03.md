@@ -42,7 +42,8 @@ with open('file.txt', 'r') as file:
 2. **'readline()' Method:**
 The 'readline()' method is used to read a single line from a file. It returns a string containing the line, including the newline character at the end.
 
-**- Example:**
+- ** Example:**
+
 ``` 
 with open('file.txt', 'r') as file:
     line = file.readline()
