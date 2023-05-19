@@ -14,6 +14,7 @@ In this repo you will find all reading notes for my Advance python 401 program, 
 | 5  | [Read: Class-05](./Advance-Python-401/class-05.md)|
 | 6  | [Read: Class-06](./Advance-Python-401/class-06.md)|
 | 7  | [Read: Class-07](./Advance-Python-401/class-07.md)|
+| *  | [Read: Stacks & Queues](./Advance-Python-401/stacks_&_queues.md)|
 | 8  | [Read: Class-08](./Advance-Python-401/class-08.md)|
 | 9  | [Read: Class-09](./Advance-Python-401/class-09.md)|
 | 10  | [Read: Class-10](./Advance-Python-401/class-10.md)|
