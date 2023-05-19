@@ -1,5 +1,7 @@
 # class-07
 
+## Ten Thousand 2 
+
 ## Scope
  
 The area of a program in which you can unambiguously access that name, such as variables, functions, objects, and so on.
