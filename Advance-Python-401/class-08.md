@@ -1,56 +1,91 @@
 # Class 08 Reading
 
-## Stacks & Queues
+## Ten Thousand 3
 
-**1. Stack:**
+### Python list comprehension
 
-A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. It means that the last element added to the stack is the first one to be removed. Think of it as a stack of plates where you can only remove the topmost plate or add a new plate on top.
+The basic syntax of Python list comprehension follows this structure:
 
-**Key operations:**
+```python
+[expression for item in iterable if condition]
 
-- Push: Adds an element to the top of the stack.
-- Pop: Removes the top element from the stack.
-- Peek/Top: Returns the top element without removing it.
-- IsEmpty: Checks if the stack is empty.
+```
 
-Common use cases for stacks include expression evaluation, undo/redo functionality, function call stack in programming languages, and backtracking algorithms.
+Here's an explanation of each component:
 
-**2. Queue:**
+- **expression:** This is the operation or computation you want to perform on each item in the iterable.
+- **item:** It represents the individual elements in the iterable that you want to iterate over.
+- **iterable:** It refers to the sequence, such as a list or a range, from which you want to create the new list.
+- **condition** (optional): It allows you to include an additional filter or condition to control which items are included in the new list. This part is optional.
 
-A queue is also a linear data structure, but it follows the First-In-First-Out (FIFO) principle. It means that the first element added to the queue is the first one to be removed. Think of it as a queue of people waiting in line where the person who arrives first gets served first.
+Now, let's compare list comprehension to using a for loop to create a list. When using a for loop, you typically initialize an empty list and then iterate over the elements in an iterable, performing an operation on each item, and appending the result to the list.
 
-**Key operations:**
+Here's an example that demonstrates the difference. Let's say we have a list of integers [1, 2, 3, 4, 5], and we want to square each element:
 
-- Enqueue: Adds an element to the end (rear) of the queue.
-- Dequeue: Removes the element from the front of the queue.
-- Front: Returns the element at the front without removing it.
-- IsEmpty: Checks if the queue is empty.
+Using a for loop:
 
-Queues are commonly used in scenarios that involve scheduling, buffering, printing tasks, breadth-first search, and handling requests.
+```python
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = []
+for num in numbers:
+    squared_numbers.append(num**2)
 
-**3. Priority Queue:**
-A priority queue is an abstract data type that represents a set of elements, each associated with a priority. The elements with higher priorities are dequeued before the ones with lower priorities. It's like a queue where elements have different priorities and are served based on their priority level.
+```
 
-**Key operations:**
+Using list comprehension:
 
-- Insert: Adds an element to the priority queue with a specific priority.
-- Delete: Removes the element with the highest priority.
-- FindMin/FindMax: Retrieves the element with the highest or lowest priority without removing it.
-- IsEmpty: Checks if the priority queue is empty.
+```python
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [num**2 for num in numbers]
 
-Priority queues are used in various applications, such as task scheduling, event handling, graph algorithms like Dijkstra's algorithm, and Huffman coding.
+```
 
-**4. Circular Queue:**
+As you can see, list comprehension allows you to create a new list and perform the squaring operation in a more concise and expressive way. It combines the iteration, operation, and appending steps into a single line. The resulting squared_numbers list will contain [1, 4, 9, 16, 25].
 
-A circular queue is an extension of the queue data structure, where the last element points back to the first element to create a circular structure. This allows efficient utilization of space in certain scenarios.
+-----
 
-**Key operations:**
+### Decorators
 
-- Enqueue: Adds an element to the rear of the circular queue.
-- Dequeue: Removes the element from the front of the circular queue.
-- Front: Returns the element at the front without removing it.
-- IsEmpty: Checks if the circular queue is empty.
+In Python, decorators are a powerful feature that allows you to modify or enhance the behavior of functions or classes without directly modifying their source code. They provide a way to wrap or decorate functions or classes with additional functionality.
 
-- IsFull: Checks if the circular queue is full.
+At their core, decorators are higher-order functions that take a function or class as input and return a new function or class. They can be used to add functionality, modify behavior, or provide additional features to the decorated object. Decorators are typically denoted using the '@decorator_name' syntax, placed just before the function or class definition.
 
-Circular queues are useful when there's a fixed buffer size, and elements need to be added and removed in a circular manner.
+Here's a simplified example to illustrate how decorators work:
+
+```python
+def decorator_function(original_function):
+    def wrapper_function():
+    
+        print("Before the function is called")
+        original_function()
+        print("After the function is called")
+
+    return wrapper_function
+
+@decorator_function
+def hello():
+    print("Hello, world!")
+hello()
+
+```
+
+In this example, we define a decorator function called '**decorator_function**'. It takes the original function ('**hello**') as input and returns a new function ('**wrapper_function**'). The '**wrapper_function**' is responsible for adding the additional behavior or actions before and after calling the original function.
+
+When the '**hello()**' function is called, it is automatically decorated by the '**decorator_function**'. The output will be:
+
+```sql
+Before the function is called
+Hello, world!
+After the function is called
+
+```
+
+Common use cases for decorators include:
+
+- **Logging**: Adding logging statements or tracking function calls.
+- **Timing**: Measuring the execution time of functions.
+- **Caching**: Storing and reusing function results to improve performance.
+- **Authorization and authentication**: Checking user permissions before executing a function.
+- **Error handling**: Catching exceptions and handling errors gracefully.
+
+Decorators provide a clean and reusable way to extend or modify the behavior of functions or classes without modifying their original implementation, promoting code reusability and separation of concerns.
