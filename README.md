@@ -22,3 +22,5 @@ In this repo you will find all reading notes for my Advance python 401 program, 
 | 13  | [Read: Class-13](./Advance-Python-401/class-13.md)|
 | 14  | [Read: Class-14](./Advance-Python-401/class-14.md)|
 | 15  | [Read: Class-15](./Advance-Python-401/class-15.md)|
+| 15  | [Read: Class-15](./Advance-Python-401/class-15.md)|
+| 17  | [Read: Class-17](./Advance-Python-401/class-17.md)|
