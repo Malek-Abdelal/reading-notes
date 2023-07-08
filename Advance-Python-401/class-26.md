@@ -7,11 +7,17 @@
 **The key components of the Django framework are:**
 
 **1. Models:** Defines the database structure and handles data operations.
+
 **2. Views:** Handles logic and data flow between models and templates.
+
 **3. Templates:** Generates HTML markup for rendering data dynamically.
+
 **4. URL routing:** Maps URLs to specific views in the application.
+
 **5. Forms:** Processes and validates user input.
+
 **6. Middleware:** Provides additional functionality for request and response processing.
+
 **7. Authentication and Authorization:** Manages user authentication and access control.
 
 These components work together to build web applications efficiently and securely.
