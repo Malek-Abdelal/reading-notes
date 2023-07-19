@@ -28,4 +28,4 @@ In this repo you will find all reading notes for my Advance python 401 program, 
 | 17  | [Read: Class-27](./Advance-Python-401/class-27.md)|
 | 17  | [Read: Class-28](./Advance-Python-401/class-28.md)|
 | 17  | [Read: Class-29](./Advance-Python-401/class-29.md)|
-| 17  | [Read: Class-30](./Advance-Python-401/class-30.md)|
+| 17  | [Hash Tables](./Advance-Python-401/hash_tables.md)|
