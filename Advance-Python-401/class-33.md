@@ -1,5 +1,5 @@
 # class-33
-0
+
 ## Authentication & Production Server
 
 **Q: What is the primary purpose of JSON Web Tokens (JWTs) and how do they work in terms of encoding and decoding data?**
@@ -14,38 +14,37 @@ JWTs work by encoding data into a JSON object, which is then digitally signed to
 
 JWT Authentication integrates with Django REST Framework (DRF) to secure API endpoints by providing a token-based authentication mechanism. The key components involved in this process are:
 
-1. **DRF's Authentication Classes:** DRF provides authentication classes like JWTAuthentication, which handle JWT-based authentication for API endpoints.
+1. **DRF's Authentication Classes:**
 
-2. **Obtaining a Token:** Users typically obtain a token by sending their credentials (e.g., username and password) to a designated authentication endpoint. DRF's ObtainJSONWebToken view or a third-party package like djangorestframework-simplejwt can handle this process.
+2. **Obtaining a Token:** 
 
-3. **Token Issuance:** Upon successful authentication, the authentication endpoint issues a JWT containing the user's payload (e.g., user ID, expiration time) and a signature.
+3. **Token Issuance:** 
 
-4. **Token Inclusion:** Subsequent requests to secure API endpoints must include the JWT in the request header (usually as "Authorization: Bearer `<token>`").
+4. **Token Inclusion:** 
 
-5. **Authentication Validation:** The JWT middleware in DRF checks the validity of the token's signature, expiration time, and other claims before allowing access to the protected API endpoints.
+5. **Authentication Validation:** 
 
-6. **User Identification:** Upon successful validation, the user associated with the token is set as the request's user object, enabling access to authenticated user-specific resources.
+6. **User Identification:**
 
-7. **Handling Expired Tokens:** If the token has expired, the user is required to obtain a new token by re-authenticating.
-
+7. **Handling Expired Tokens:** 
 ---------
 
 **Q: Why is Django’s built-in runserver not suitable for production environments, and what are some alternative server options that should be considered for deploying a Django application?** 
 
 Django's built-in runserver is not suitable for production environments because it is not designed to handle the high traffic and security requirements of a production server. Some reasons include:
 
-1. **Single-Threaded and Non-Production Optimized:** Django's runserver is single-threaded and not optimized for handling concurrent requests, making it inefficient for production-level traffic.
+1. **Single-Threaded and Non-Production Optimized:**
 
-2. **No Load Balancing:** It lacks features like load balancing, which are essential for distributing incoming requests among multiple server instances.
+2. **No Load Balancing:**
 
-3. **Lack of Security Features:** The built-in runserver lacks security features required in production, such as HTTPS support and robust access control.
+3. **Lack of Security Features:**
 
 **For production environments, it is recommended to use production-ready server options like:**
 
-1. **Gunicorn (Green Unicorn):** A widely used WSGI server that supports multiple worker processes and is designed for production use.
+1. **Gunicorn (Green Unicorn):** 
 
-2. **uWSGI:** Another popular WSGI server that is highly configurable, scalable, and suitable for deployment in production setups.
+2. **uWSGI:**
 
-3. **nginx + Gunicorn/uWSGI:** Nginx can act as a reverse proxy to handle static files and load balancing, while Gunicorn or uWSGI serves as the WSGI application server.
+3. **nginx + Gunicorn/uWSGI:**
 
-4. **Dedicated Hosting Solutions:** Platforms like Heroku, AWS Elastic Beanstalk, or Google App Engine offer managed hosting solutions for deploying Django applications easily and efficiently.
+4. **Dedicated Hosting Solutions:** 
