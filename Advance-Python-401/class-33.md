@@ -14,37 +14,37 @@ JWTs work by encoding data into a JSON object, which is then digitally signed to
 
 JWT Authentication integrates with Django REST Framework (DRF) to secure API endpoints by providing a token-based authentication mechanism. The key components involved in this process are:
 
-1. **DRF's Authentication Classes:**
+1. **DRF's Authentication Classes**
 
-2. **Obtaining a Token:** 
+2. **Obtaining a Token** 
 
-3. **Token Issuance:** 
+3. **Token Issuance** 
 
-4. **Token Inclusion:** 
+4. **Token Inclusion** 
 
-5. **Authentication Validation:** 
+5. **Authentication Validation** 
 
-6. **User Identification:**
+6. **User Identification**
 
-7. **Handling Expired Tokens:** 
+7. **Handling Expired Tokens** 
 ---------
 
 **Q: Why is Django’s built-in runserver not suitable for production environments, and what are some alternative server options that should be considered for deploying a Django application?** 
 
 Django's built-in runserver is not suitable for production environments because it is not designed to handle the high traffic and security requirements of a production server. Some reasons include:
 
-1. **Single-Threaded and Non-Production Optimized:**
+1. **Single-Threaded and Non-Production Optimized**
 
-2. **No Load Balancing:**
+2. **No Load Balancing**
 
-3. **Lack of Security Features:**
+3. **Lack of Security Features**
 
-**For production environments, it is recommended to use production-ready server options like:**
+**For production environments, it is recommended to use production-ready server options like**
 
-1. **Gunicorn (Green Unicorn):** 
+1. **Gunicorn (Green Unicorn)** 
 
-2. **uWSGI:**
+2. **uWSGI**
 
-3. **nginx + Gunicorn/uWSGI:**
+3. **nginx + Gunicorn/uWSGI**
 
-4. **Dedicated Hosting Solutions:** 
+4. **Dedicated Hosting Solutions** 
