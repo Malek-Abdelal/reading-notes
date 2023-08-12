@@ -14,21 +14,21 @@ In this repo you will find all reading notes for my Advance python 401 program, 
 | 5  | [Read: Class-05](./Advance-Python-401/class-05.md)|
 | 6  | [Read: Class-06](./Advance-Python-401/class-06.md)|
 | 7  | [Read: Class-07](./Advance-Python-401/class-07.md)|
-| *  | [Read: Stacks & Queues](./Advance-Python-401/stacks_&_queues.md)|
-| 8  | [Read: Class-08](./Advance-Python-401/class-08.md)|
-| 9  | [Read: Class-09](./Advance-Python-401/class-09.md)|
-| 11  | [Read: Class-11](./Advance-Python-401/class-11.md)|
-| 12  | [Read: Class-12](./Advance-Python-401/class-12.md)|
-| 13  | [Read: Class-13](./Advance-Python-401/class-13.md)|
-| 14  | [Read: Class-14](./Advance-Python-401/class-14.md)|
-| 15  | [Read: Class-15](./Advance-Python-401/class-15.md)|
-| 15  | [Read: Class-16](./Advance-Python-401/class-16.md)|
-| 17  | [Read: Class-17](./Advance-Python-401/class-17.md)|
-| 17  | [Read: Class-26](./Advance-Python-401/class-26.md)|
-| 17  | [Read: Class-27](./Advance-Python-401/class-27.md)|
-| 17  | [Read: Class-28](./Advance-Python-401/class-28.md)|
-| 17  | [Read: Class-29](./Advance-Python-401/class-29.md)|
-| 17  | [Hash Tables](./Advance-Python-401/hash_tables.md)|
-| 17  | [Read: Class-31](./Advance-Python-401/class-31.md)|
-| 17  | [Read: Class-33](./Advance-Python-401/class-33.md)|
-| 17  | [Graph](./Advance-Python-401/graph.md)|
+| 8  | [Read: Stacks & Queues](./Advance-Python-401/stacks_&_queues.md)|
+| 9  | [Read: Class-08](./Advance-Python-401/class-08.md)|
+| 10 | [Read: Class-09](./Advance-Python-401/class-09.md)|
+| 11 | [Read: Class-11](./Advance-Python-401/class-11.md)|
+| 12 | [Read: Class-12](./Advance-Python-401/class-12.md)|
+| 13 | [Read: Class-13](./Advance-Python-401/class-13.md)|
+| 14 | [Read: Class-14](./Advance-Python-401/class-14.md)|
+| 15 | [Read: Class-15](./Advance-Python-401/class-15.md)|
+| 16 | [Read: Class-16](./Advance-Python-401/class-16.md)|
+| 17 | [Read: Class-17](./Advance-Python-401/class-17.md)|
+| 18 | [Read: Class-26](./Advance-Python-401/class-26.md)|
+| 19 | [Read: Class-27](./Advance-Python-401/class-27.md)|
+| 20 | [Read: Class-28](./Advance-Python-401/class-28.md)|
+| 21 | [Read: Class-29](./Advance-Python-401/class-29.md)|
+| 22 | [Hash Tables](./Advance-Python-401/hash_tables.md)|
+| 23 | [Read: Class-31](./Advance-Python-401/class-31.md)|
+| 24 | [Read: Class-33](./Advance-Python-401/class-33.md)|
+| 25 | [Graph](./Advance-Python-401/graph.md)|
