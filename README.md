@@ -32,3 +32,4 @@ In this repo you will find all reading notes for my Advance python 401 program, 
 | 23 | [Read: Class-31](./Advance-Python-401/class-31.md)|
 | 24 | [Read: Class-33](./Advance-Python-401/class-33.md)|
 | 25 | [Graph](./Advance-Python-401/graph.md)|
+| 26 | [Read: Class-37](./Advance-Python-401/class-37.md)|
